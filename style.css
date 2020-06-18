@@ -46,7 +46,11 @@ body {
 }
 
 #quote-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	max-width: 500px;
+	min-height: 350px;
 	margin: 0 15px;
 	padding: 25px;
 	font-family: 'Monotype Corsiva';
