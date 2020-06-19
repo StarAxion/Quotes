@@ -59,9 +59,7 @@ var quotesList = [
 
 
 function getRandomNumber() {
-  var min = 0;
-  var max = quotesList.length - 1;
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(Math.random() * quotesList.length);
 }
 
 
